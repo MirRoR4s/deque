@@ -163,7 +163,7 @@ public class LinkedListDeque<T> {
         if (index == 0) {
             return p.item;
         }
-        
+
         return getRecursive(p.next, index - 1);
     }
 }

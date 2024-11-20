@@ -22,7 +22,7 @@ public class ArrayDequeTest {
         deque.addLast(1);
         deque.addLast(2);
         deque.addLast(3);
-        
+
         int ans = deque.get(0);
         assertEquals(1, ans);
         ans = deque.get(1);
